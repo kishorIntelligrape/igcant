@@ -22,7 +22,7 @@ environments {
             dialect = org.hibernate.dialect.MySQL5InnoDBDialect
             username = "root"
             password = "igdefault"
-            dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
+            dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:mysql://localhost:3306/igcant"
 //            logSql = true
         }
