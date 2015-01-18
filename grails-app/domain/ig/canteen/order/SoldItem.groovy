@@ -8,7 +8,7 @@ class SoldItem {
     String productCategory
     Integer quantity
     Double pricePerUnit
-    Date date
+    Date dateCreated
 
     static constraints = {
 
